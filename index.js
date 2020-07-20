@@ -56,7 +56,7 @@ function fetchDataFromToken(req, res){
 
 	const patientDataPromise = patientIdPromise.then((patient_id_response) => {
 
-		console.log(patient_id_response);
+		// console.log(patient_id_response);
 
 		if (patient_id_response.status != RESPONSE_OK) {
 			res.status(400);
@@ -76,7 +76,7 @@ function fetchDataFromToken(req, res){
 			})
 
 	  		const patientDetails = patientjsonPromise.then((jsonData) => {
-	  			console.log(jsonData);
+	  			// console.log(jsonData);
 	  			var responseData = {};
 	  			var dataArray = [];
 
