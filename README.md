@@ -7,8 +7,8 @@ Assumptions :
 2) A browser is installed on the system.
 3) You have already gotten the files required to run the application. 
 
-0. From the application folder, run <npm init>.
-1. From the folder, Initiate the server with the following command on the terminal -- `node index.js`
+0. From the application folder, run `npm install`.
+1. From the folder, Initiate the server with the following command on the terminal -- `npm start`
 2. Once the server is running, go to `http://localhost:3000/` in a web browser.
 3. Enter the access token on the page and click Submit button, the results will be displayed in a tabular form.
 4. Invalid input will cause an alert text to show on the page.
